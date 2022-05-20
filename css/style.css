@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Updock";
+  src: url("../assets/fonts/Updock/Updock-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-light";
+  src: url("../assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Roboto-light";
+}
+
+.indicator {
+  width: 40px;
+  background: #f8f8f8;
+  border-right: 1px solid lightgray;
+  position: absolute;
+  left: 0;
+  min-height: 100vh;
+}
+
+main {
+  position: relative;
+}
+
+main .content {
+  height: 110vh;
+}
+
+main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 4rem;
+}
+
+main header .logo {
+  font-family: "Updock";
+  font-size: 6rem;
+}
+
+main .img-container {
+  position: absolute;
+}
+
+main .img-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .img-container1 {
+  top: 0;
+  left: 40vw;
+  height: 30vh;
+  width: 25vw;
+}
+
+main .img-container2 {
+  right: 0;
+  top: 18vw;
+  height: 50vh;
+  width: 20vw;
+}
+
+main .img-container3 {
+  left: 40px;
+  top: 17vh;
+  height: 30vh;
+  width: 10vw;
+}
+
+main .img-container4 {
+  left: 40px;
+  top: 80vh;
+  height: 30vh;
+  width: 25vw;
+}
+/*# sourceMappingURL=style.css.map */
